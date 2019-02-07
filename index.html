@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<title>CHAT-FLAKES</title>
+
+<link rel="stylesheet" type="text/css" href="css_styles.css"/>
+
+<style type="text/css">
+
+
+{ font-size:14pt;
+	color:red;
+}
+	
+</style>
+
+<script type="text/javascript">
+
+function check()
+
+{
+	var x=document.forms["userform"];
+	if(x.username.value==null || x.username.value=="")
+	{alert("Please enter your username");
+		return false;
+	}
+	
+	else if(x.password.value==null || x.password.value="")
+	{ alert("Please enter your password");
+		return false;
+	}
+}
+</script>
+
+</head>
+
+<body leftmargin="50">
+<p align="right">
+<font size="+1", color="#FF0000">
+
+<?php
+echo date("1 M-d-y");
+?>
+
+</font>
+
+</p>
+
+<div id="bar3" style="position:absolute;right:90px;">
+<br><br><br><br>
+<tr><b> <a href="about.html">About</a> </b></tr>
+<br><br>
+<tr><b> <a href="contact.html">Contact</a> </b></tr>
+<br><br>
+<tr><b> <a href="games.html">Games</a> </b></tr>
+</div>
+
+<fieldset style="border-color:#999" column-width:"auto">
+
+<legend>
+
+<div align="center">
+
+<img src="logo.png" width="110" height="100" align="middle"/>
+
+<i id="heading">CHAT-FLAKES </i>
+
+</div>
+</legend>
+</p>
+
+<div>
+
+<p>
+
+<form name="userform" action="checkusername.php" method="post" onSubmit="return check()">
+
+<table width="18%" height="205" co bgcolor="#CCCCCC" align="left" cellpadding="8">
+
+	<tr> <td>Sign in </td><td align="right"><i id="talk">Chat-Flakes</i></tr>
+
+		<tr><td>Username:</td><td><input type="text" name="username"/></td></tr>
+
+		<tr><td>Password:</td><td align="right"><input type="password" name="password"/></td></tr>
+
+		<tr><td align="right" colspan="2"></td></tr>
+
+		<tr><td align="center" colspan="2"><input type="submit" value="submit"/></td></tr>
+
+		<tr><td colspan="2"><a href="newuser.php">New user?</a></td></tr>
+
+	</table>
+	
+	</form>
+	<center>
+	
+	<img src="people.png" alt="**********************no image*************************" width="500pt" />
+
+</center>
+
+</p>
+
+</div>
+
+</fieldset>
+
+<div align="center">
+
+<footer id="footer"> 
+
+	  Developed by - Atinder pal Sohal SJSU id-008059467
+
+</footer>
+
+</div>
+
+</body>
+
+</html>
