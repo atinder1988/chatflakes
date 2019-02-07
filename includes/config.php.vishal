@@ -1,0 +1,9 @@
+<?php
+
+$conf['db_hostname'] = "mysql";
+$conf['db_username'] = "vishalsharma";
+$conf['db_password'] = "parents@1986";
+$conf['db_name'] = "dev_chat";
+$conf['url_addroom'] = "http://networkarch2010.com/dev/xChat/addroom.php";
+
+?>

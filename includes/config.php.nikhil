@@ -1,0 +1,17 @@
+<?php
+
+
+
+$conf['db_hostname'] = "mysql";
+
+$conf['db_username'] = "nikhil";
+
+$conf['db_password'] = "reenan";
+
+$conf['db_name'] = "dev_chat";
+
+$conf['url_addroom'] = "http://nikhilnagda.com/dev1/xChat/addroom.php";
+
+
+
+?>
